@@ -1,5 +1,5 @@
 body {
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: 'Roboto', sans-serif;
   display: flex;
   flex-direction: column;
   margin: 0;
@@ -69,7 +69,7 @@ body {
 }
 
 .mid-section {
-  padding: 48px 10%;
+  padding: 48px 14%;
 }
 
 .random-text {
@@ -82,8 +82,9 @@ body {
 
 .image-row {
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   align-items: center;
+  gap: 40px;
 }
 
 .image {
@@ -98,22 +99,21 @@ body {
   border-color: #3882F6;
   border-width: 3px;
   border-radius: 8px;
-  width: 160px;
-  height: 160px;
+  width: 150px;
+  height: 150px;
   margin-bottom: 8px;
 }
 
 .image div {
-  font-size: 18px;
+  font-size: 16px;
   text-align: center;
-  width: 160px;
+  width: 150px;
 
 }
 
 .bot-section {
-  padding: 80px 10%;
+  padding: 80px 14%;
   background-color: #e5e7eb;
-  margin: auto;
 }
 
 .quote {
@@ -121,9 +121,41 @@ body {
   font-weight: light;
   font-style: italic;
   color: #1f2937;
+  margin-bottom: 8px;
 }
+
 .quote-author {
   font-size: 18px;
   font-weight: bold;
   text-align: end;
+}
+
+.cta-section {
+  margin: 120px 10%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #3882F6;
+  padding: 48px 4%;
+  border-radius: 8px;
+}
+
+.cta-text {
+  color: #f9faf8;
+  font-size: 18px;
+  font-weight: 600;
+  margin-bottom: 4px;
+}
+
+.cta-subtext {
+  color: #f9faf8;
+}
+
+.cta-section button {
+  border: 2px solid #f9faf8;
+  border-radius: 4px;
+  background-color: #3882F6;
+  color: white;
+  font-size: 14px;
+  padding: 8px 24px;
 }
