@@ -3,7 +3,6 @@ body {
   display: flex;
   flex-direction: column;
   margin: 0;
-  height: 2000px;
 }
 
 .header {
@@ -158,4 +157,12 @@ body {
   color: white;
   font-size: 14px;
   padding: 8px 24px;
+}
+
+.footer {
+  background-color: #1f2937;
+  color: #e5e7eb;
+  text-align: center;
+  font-size: 14px;
+  padding: 32px;
 }
