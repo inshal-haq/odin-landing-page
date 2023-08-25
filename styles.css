@@ -66,3 +66,45 @@ body {
   width: 300px;
   height: auto;
 }
+
+.mid-section {
+  padding: 48px 10%;
+}
+
+.random-text {
+  text-align: center;
+  font-size: 36px;
+  font-weight: 800;
+  color: #1f2937;
+  margin-bottom: 48px;
+}
+
+.image-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.image {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.image img {
+  border-style: solid;
+  border-color: #3882F6;
+  border-width: 3px;
+  border-radius: 8px;
+  width: 160px;
+  height: 160px;
+  margin-bottom: 8px;
+}
+
+.image div {
+  font-size: 18px;
+  text-align: center;
+  width: 160px;
+
+}
