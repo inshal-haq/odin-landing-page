@@ -1,5 +1,5 @@
 # odin-landing-page
-Odin - Landing Page Project
+Odin - Landing Page
 
 Image Sources:
 pexel.com
